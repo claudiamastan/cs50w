@@ -35,28 +35,49 @@
         </div>
 
         <div class="container main" id="resume">
-        <span class="section-header">Resume</span>
-        <div class="content row">
-            <div class="col-3 section-header-2 h-100">Education</div>
-            
-            <div class="school col align-self-start">
-                <div class="desc">
-                    <span class="name">University of California, Irvine</span><br>
-                    <span class="period">2017-2019</span> <span class="loc">Irvine, CA</span><br>
-                    B.S in Computer Science. Specialization: Information. Expected Graduation: 2019
-                </div>
-                <div class="desc">
-                    <span class="name">Foothill College</span><br>
-                    <span class="period">2015-2017</span> <span class="loc">Los Altos, CA</span><br>
-                    A.S in Computer Science. Graduated with High Honors.
-                </div>
+            <span class="section-header">Resume</span>
+            <div class="edu row">
+                <div class="col-3 section-header-2">Education</div>
                 
+                <div class="school content col align-self-start">
+                    <div class="desc">
+                        <span class="name">University of California, Irvine</span><br>
+                        <span class="period">2017-2019</span> <span class="loc">Irvine, CA</span><br>
+                        B.S in Computer Science. Specialization: Information. Expected Graduation: 2019
+                    </div>
+                    <div class="desc">
+                        <span class="name">Foothill College</span><br>
+                        <span class="period">2015-2017</span> <span class="loc">Los Altos, CA</span><br>
+                        A.S in Computer Science. Graduated with High Honors.
+                    </div>
+                    
+                </div>    
             </div>
-            
-        </div>
+
+            <div class="exp row">
+                <div class="col-3 section-header-2">Experience</div>
+                <div class="workplaces content col align-self-start">
+                    <div class="buttons">
+                        <button type="button" id="axxera">Axxera, Inc</button>
+                        <button type="button" id="uci">UCI CSWHP</button>
+                        <button type="button" id="tagsi">Tagsi</button>
+                        <button type="button" id="fhdc">Foothill College Design Center</button>
+                    </div>
+                    <div id="exp-desc">
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Optional JavaScript -->
+        <!-- Load React. -->
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+        <!-- Load our React component. -->
+        <script src="exp.js"></script>
+
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

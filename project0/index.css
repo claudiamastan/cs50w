@@ -43,5 +43,21 @@ nav {
 #resume .school .period {
   padding-right: 4px;
 }
+#resume .exp {
+  padding-top: 20px;
+}
+#resume .exp .workplaces {
+  padding: 10px 0;
+}
+#resume .exp button {
+  border: none;
+  background: none;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  font-weight: 500;
+}
+#resume .exp button:hover {
+  border-bottom: 2px solid black;
+}
 
 /*# sourceMappingURL=index.css.map */
