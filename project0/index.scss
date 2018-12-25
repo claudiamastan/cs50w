@@ -2,7 +2,7 @@
 {
     width: 100%;
     height: 100%;
-    padding: 130px 20px;
+    padding: 130px 20px 100px;
 }
 
 %section-head
@@ -15,6 +15,7 @@
 {
     @extend %section-head;
     font-size: 400%;
+    padding-bottom: 20px;
 }
 
 .section-header-2
@@ -23,10 +24,10 @@
     font-size: 200%;
 }
 
+
 //NAV ==========================
 nav
 {
-   background: white;
 }
 
 // HOME ========================
@@ -100,4 +101,18 @@ nav
 }
 
 // CONTACT =======================
+#contact
+{
+    @extend %section;
+}
+
+// FOOTER ========================
+footer
+{
+    padding-bottom: 30px;
+    #social
+    {
+        display: inline;
+    }
+}
 

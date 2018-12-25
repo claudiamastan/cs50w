@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <nav class="navbar sticky-top navbar-expand-md navbar-light">
+        <nav class="navbar sticky-top navbar-expand-md navbar-light" role="navigation">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,27 +35,27 @@
         </div>
 
         <div class="container main" id="resume">
-            <span class="section-header">Resume</span>
+            <h1 class="section-header">Resume</h1>
             <div class="edu row">
-                <div class="col-3 section-header-2">Education</div>
+                <h2 class="col-3 section-header-2">Education</h2>
                 
-                <div class="school content col align-self-start">
-                    <div class="desc">
+                <ul class="school content col align-self-start list-unstyled">
+                    <li class="desc">
                         <span class="name">University of California, Irvine</span><br>
                         <span class="period">2017-2019</span> <span class="loc">Irvine, CA</span><br>
                         B.S in Computer Science. Specialization: Information. Expected Graduation: 2019
-                    </div>
-                    <div class="desc">
+                    </li>
+                    <li class="desc">
                         <span class="name">Foothill College</span><br>
                         <span class="period">2015-2017</span> <span class="loc">Los Altos, CA</span><br>
                         A.S in Computer Science. Graduated with High Honors.
-                    </div>
+                    </li>
                     
-                </div>    
+                </ul>    
             </div>
 
             <div class="exp row">
-                <div class="col-3 section-header-2">Experience</div>
+                <h2 class="col-3 section-header-2">Experience</h2>
                 <div class="workplaces content col align-self-start">
                     <div class="buttons">
                         <button type="button" id="axxera">Axxera, Inc</button>
@@ -69,6 +69,36 @@
             </div>
         </div>
 
+        <div class="container main" id="contact">
+            <h1 class="section-header">Contact</h1>
+            shoot me an email: <a href="mailto:cmastan@uci.edu">cmastan@uci.edu</a>
+        </div>
+    </body>
+    <footer class="d-flex container">
+        <div class="watermark col">
+            © Claudia Mastan 2018
+        </div>
+        <div class="social">
+        <ul id="social" class = "list-inline col">
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/claudiamastan/" target="blank" title="linkedin">
+                    linkedin
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://github.com/claudiamastan/" target="blank" title="git">
+                    git
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="mailto:cmastan@uci.edu" target="blank" title="email">
+                    email
+                </a>
+                    
+            </li>
+        </ul>
+        </div>
+    </footer>
         <!-- Optional JavaScript -->
         <!-- Load React. -->
         <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
@@ -82,5 +112,5 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
+
 </html>
