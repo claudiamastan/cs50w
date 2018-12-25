@@ -1,0 +1,47 @@
+#resume, #home {
+  width: 100%;
+  height: 100%;
+  padding: 130px 20px;
+}
+
+.section-header-2, .section-header {
+  display: block;
+  font-weight: 500;
+}
+
+.section-header {
+  font-size: 400%;
+}
+
+.section-header-2 {
+  font-size: 200%;
+}
+
+nav {
+  background: white;
+}
+
+#home {
+  font-size: 300%;
+}
+#home #name {
+  font-weight: bold;
+}
+#home .intro {
+  display: block;
+}
+
+#resume .school .desc {
+  padding: 10px 0;
+}
+#resume .school .name {
+  font-weight: 500;
+}
+#resume .school .loc {
+  font-style: italic;
+}
+#resume .school .period {
+  padding-right: 4px;
+}
+
+/*# sourceMappingURL=index.css.map */

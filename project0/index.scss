@@ -1,0 +1,84 @@
+%section
+{
+    width: 100%;
+    height: 100%;
+    padding: 130px 20px;
+}
+
+%section-head
+{
+    display: block;
+    font-weight: 500;
+}
+
+.section-header
+{
+    @extend %section-head;
+    font-size: 400%;
+}
+
+.section-header-2
+{
+    @extend %section-head;
+    font-size: 200%;
+}
+
+//NAV ==========================
+nav
+{
+   background: white;
+}
+
+// HOME ========================
+#home
+{
+    @extend %section;
+    font-size: 300%;
+
+    #name
+    {
+        font-weight: bold;
+    }
+
+    .intro
+    {
+        display: block;
+    }
+
+}
+
+// RESUME =========================
+#resume
+{
+    @extend %section;
+
+    .school
+    {
+        .desc
+        {
+            padding: 10px 0;
+        }
+        .name
+        {
+            font-weight: 500;
+        }
+
+        .loc
+        {
+            font-style: italic;
+        }
+
+        .period
+        {
+            padding-right: 4px;
+        }
+    }
+
+    .exp
+    {
+        
+    }
+}
+
+// CONTACT =======================
+
