@@ -24,22 +24,20 @@
             </div>
         </nav>
 
-        <div class="container main flex-row" id="home" role="main">
-            Hello! I'm <span id="name" class="inline">Claudia Mastan</span>, 
-            <span class="intro">
-            a computer science student and
-            </span>
-            <span class="intro">
-            a graphic designer.
-            </span>
+        <div class="section" id="home" role="main">
+            <div class="intro">Hello!<br>
+            <span id="intro-line">I'm <span id="name" class="inline">Claudia Mastan</span>,</span><br>
+            a computer science student and <br>
+            a graphic designer.<br>
+            </div>
         </div>
 
-        <div class="container main" id="resume">
+        <div class="section" id="resume">
             <h1 class="section-header">Resume</h1>
-            <div class="edu row">
-                <h2 class="col-3 section-header-2">Education</h2>
-                
-                <ul class="school content col align-self-start list-unstyled">
+
+            <div id="edu">
+                <h2 class="section-header-2">Education</h2>
+                <ul class="content list-unstyled" id="schools">
                     <li class="desc">
                         <span class="name">University of California, Irvine</span><br>
                         <span class="period">2017-2019</span> <span class="loc">Irvine, CA</span><br>
@@ -54,9 +52,9 @@
                 </ul>    
             </div>
 
-            <div class="exp row">
-                <h2 class="col-3 section-header-2">Experience</h2>
-                <div class="workplaces content col align-self-start">
+            <div id="exp">
+                <h2 class="section-header-2">Experience</h2>
+                <div class="content align-self-start" id="workplaces">
                     <div class="buttons">
                         <button type="button" id="axxera">Axxera, Inc</button>
                         <button type="button" id="uci">UCI CSWHP</button>
@@ -69,17 +67,17 @@
             </div>
         </div>
 
-        <div class="container main" id="contact">
+        <div class="section" id="contact">
             <h1 class="section-header">Contact</h1>
             shoot me an email: <a href="mailto:cmastan@uci.edu">cmastan@uci.edu</a>
         </div>
     </body>
-    <footer class="d-flex container">
-        <div class="watermark col">
+    <footer class="container">
+        <div class="watermark">
             © Claudia Mastan 2018
         </div>
         <div class="social">
-        <ul id="social" class = "list-inline col">
+        <ul id="social" class = "list-inline ml-auto">
             <li class="list-inline-item">
                 <a href="https://www.linkedin.com/in/claudiamastan/" target="blank" title="linkedin">
                     linkedin

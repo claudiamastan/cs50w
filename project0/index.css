@@ -1,12 +1,23 @@
-#contact, #resume, #home {
-  width: 100%;
-  height: 100%;
-  padding: 130px 20px 100px;
+#contact, #resume, .section {
+  height: 100vh;
+  padding: 130px 100px 130px;
 }
 
 .section-header-2, .section-header {
   display: block;
   font-weight: 500;
+}
+
+#resume #exp, #resume #edu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 .section-header {
@@ -20,48 +31,61 @@
 
 #home {
   font-size: 300%;
+  background: black;
 }
 #home #name {
   font-weight: bold;
 }
 #home .intro {
   display: block;
+  font-size: 70%;
 }
 
-#resume .school .desc {
-  padding: 10px 0;
+@media all and (min-width: 1000px) {
+  #resume #edu .desc {
+    padding-left: 65px;
+  }
 }
-#resume .school .name {
+#resume #edu .name {
   font-weight: 500;
 }
-#resume .school .loc {
+#resume #edu .loc {
   font-style: italic;
 }
-#resume .school .period {
+#resume #edu .period {
   padding-right: 4px;
 }
-#resume .exp {
+#resume #exp {
   padding-top: 20px;
 }
-#resume .exp .workplaces {
+#resume #exp #workplaces {
   padding: 10px 0;
 }
-#resume .exp button {
+@media all and (min-width: 1000px) {
+  #resume #exp .buttons {
+    padding-left: 50px;
+  }
+}
+#resume #exp .buttons {
+  margin-left: -5px;
+}
+#resume #exp .buttons button {
   border: none;
   background: none;
   padding-bottom: 10px;
   padding-right: 5px;
   font-weight: 500;
 }
-#resume .exp button:hover {
+#resume #exp .buttons button:hover {
   border-bottom: 2px solid black;
 }
 
 footer {
-  padding-bottom: 30px;
-}
-footer #social {
-  display: inline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px 0;
 }
 
 /*# sourceMappingURL=index.css.map */
